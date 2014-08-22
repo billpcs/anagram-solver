@@ -30,7 +30,7 @@ object AnagramGUI extends SimpleSwingApplication {
 			editable = false
 		}
 
-		val ipaButton = new Button{
+		val button = new Button{
 			text = "Solve it for me!"
 		}
 
@@ -45,9 +45,9 @@ object AnagramGUI extends SimpleSwingApplication {
     		}
     	}
 
-    	listenTo(ipaButton)
+    	listenTo(button)
     	reactions += {
-    		case ButtonClicked(component) if(component==ipaButton)=>
+    		case ButtonClicked(component) if(component==button)=>
             outPoint.text = ""
     		outPoint.foreground = Color.white
     		solveIt("americanenglishCAPS" , entryPoint.text.toUpperCase ) foreach(p=> outPoint.text += p.toLowerCase+"\n")
@@ -56,7 +56,7 @@ object AnagramGUI extends SimpleSwingApplication {
     	contents = new BorderPanel {       
         	add(new ScrollPane(entryPoint), BorderPanel.Position.West)
         	add(new ScrollPane(outPoint) , BorderPanel.Position.East)
-        	layout(ipaButton) = South
+        	layout(button) = South
       	}
 
 
