@@ -1,4 +1,4 @@
-import AnagSolver._
+import AnagSolverInScala._
 import scala.swing._
 import scala.swing.BorderPanel.Position._
 import event._
