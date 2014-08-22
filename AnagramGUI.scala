@@ -1,11 +1,10 @@
-import AnagSolverInScala._
+import AnagSolver._
 import scala.swing._
 import scala.swing.BorderPanel.Position._
 import event._
 import java.awt.{ Color, Graphics2D }
 import java.awt.datatransfer._
 import java.io._
-import scala.io.Source
 import scala.language.postfixOps
 
 
