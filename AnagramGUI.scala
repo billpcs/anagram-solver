@@ -49,7 +49,7 @@ object AnagramGUI extends SimpleSwingApplication {
     		case ButtonClicked(component) if(component==button)=>
             outPoint.text = ""
     		outPoint.foreground = Color.white
-    		solveIt("americanenglishCAPS" , entryPoint.text.toUpperCase ) foreach(p=> outPoint.text += p.toLowerCase+"\n")
+    		solveIt("americanenglishCAPS" , entryPoint.text.trim.toUpperCase ) foreach(p=> outPoint.text += p.toLowerCase+"\n")
     	}
 
     	contents = new BorderPanel {       
