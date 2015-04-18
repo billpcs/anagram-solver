@@ -1,15 +1,19 @@
 Anagram-Solver
 ==============
 
-A Scala Swing GUI program to solve anagrams in english
+A Scala Swing GUI program to solve anagrams in English & Greek.
 
+Requirements : **Sbt**
+(download here: http://www.scala-sbt.org/download.html)
 
 How to run:
 
-$ scalac AnagramSolver.scala
+$ git clone https://github.com/billpcs/Anagram-Solver/
 
-$ scalac AnagramGUI.scala
+$ cd Anagram-Solver
 
-$ scala AnagramGUI
+$ sbt run
+
+(run AnagramGUI)
 
 
