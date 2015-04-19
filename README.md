@@ -14,7 +14,5 @@ $ cd Anagram-Solver
 
 $ sbt run
 
-(run AnagramGUI)
-
-English some wrong encoding, so it works only in Linux. You can download any English Dictionary in txt format and replace the existing.
+English has some wrong encoding, so it works only in Linux. You can download any English Dictionary in txt format and replace the existing.
 
