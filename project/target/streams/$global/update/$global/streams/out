@@ -1,29 +1,29 @@
-[info] Updating {file:/C:/Users/Fnac/IdeaProjects/EnglishAnagramSolver/project/}englishanagramsolver-build...
-[debug] :: resolving dependencies :: default#englishanagramsolver-build;0.1-SNAPSHOT
+[info] Updating {file:/home/doom/Anagram-Solver/project/}anagram-solver-build...
+[debug] :: resolving dependencies :: default#anagram-solver-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1beaf9f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@393d5a28
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -375,19 +375,19 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [info] Resolving org.json4s#json4s-ast_2.10;3.2.10 ...
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -411,10 +411,10 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -709,17 +709,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -934,19 +934,19 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->compile(*)]
@@ -961,10 +961,10 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -1182,22 +1182,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1412,19 +1412,19 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.json4s#json4s-ast_2.10;3.2.10 [compile->compile(*)]
@@ -1439,10 +1439,10 @@
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] excluding dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -1660,18 +1660,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#englishanagramsolver-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#anagram-solver-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -1689,8 +1689,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -1703,18 +1703,18 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#englishanagramsolver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#anagram-solver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!compiler-interface-bin.jar
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2474ms :: artifacts dl 128ms
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT compile produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-compile.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT runtime produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-runtime.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT test produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-test.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT provided produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-provided.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT optional produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-optional.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-compile-internal.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-runtime-internal.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT test-internal produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-test-internal.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT plugin produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-plugin.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT sources produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-sources.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT docs produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-docs.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT pom produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-pom.xml
-[debug] 	report for default#englishanagramsolver-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Fnac\IdeaProjects\EnglishAnagramSolver\project\target\resolution-cache\reports\default-englishanagramsolver-build-scala-tool.xml
-[debug] 	resolve done (2474ms resolve - 128ms download)
+[debug] :: resolution report :: resolve 1983ms :: artifacts dl 163ms
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT compile produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-compile.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT runtime produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-runtime.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT test produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-test.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT provided produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-provided.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT optional produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-optional.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT compile-internal produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-compile-internal.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT runtime-internal produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-runtime-internal.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT test-internal produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-test-internal.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT plugin produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-plugin.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT sources produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-sources.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT docs produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-docs.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT pom produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-pom.xml
+[debug] 	report for default#anagram-solver-build;0.1-SNAPSHOT scala-tool produced in /home/doom/Anagram-Solver/project/target/resolution-cache/reports/default-anagram-solver-build-scala-tool.xml
+[debug] 	resolve done (1983ms resolve - 163ms download)
 [info] Done updating.

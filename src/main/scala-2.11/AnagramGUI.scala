@@ -15,6 +15,7 @@ object AnagramGUI extends SimpleSwingApplication {
     var lang = "ENdict"
     val basePath = new File(".").getCanonicalPath
     var restPath = "/src/main/resources/"
+
     val entryPoint = new TextArea(10,20){
       text = "Enter your word here!"
       font = new Font("Monospace", java.awt.Font.ITALIC , 20)
@@ -37,7 +38,6 @@ object AnagramGUI extends SimpleSwingApplication {
       visible = true
     }
 
-
     menuBar = new MenuBar {
       resizable = false
       contents += new Menu("File") {
@@ -54,7 +54,7 @@ object AnagramGUI extends SimpleSwingApplication {
       case ButtonClicked(component) if component == button =>
         outPoint.text = ""
         solveIt(
-          basePath + restPath + lang, entryPoint.text.trim.toUpperCase
+            basePath + restPath + lang, entryPoint.text.trim.toUpperCase
           ) foreach(p=> outPoint.text += p.toLowerCase+"\n")
     }
 
@@ -63,10 +63,6 @@ object AnagramGUI extends SimpleSwingApplication {
       add(new ScrollPane(outPoint) , BorderPanel.Position.East)
       layout(button) = South
     }
-
-
   }
-
-
 }
 
