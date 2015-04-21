@@ -18,7 +18,7 @@ object AnagramSolver extends App{
   }
 
   def solveIt(path:String , scrambled:String ) : List[String] = {
-    val dict = scala.io.Source.fromFile(path).getLines().toArray
+    val dict = scala.io.Source.fromFile(path)("UTF-8").getLines().toArray
     var found = List[String]()
     for (normal<-dict)
       if ( haveMatch(normal , scrambled) && !(found contains normal) )
