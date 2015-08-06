@@ -3,8 +3,15 @@ Anagram-Solver
 
 A Scala Swing GUI program to solve anagrams in English & Greek.
 
-Requirements : **sbt**
+Requirements : 
+
+**git**
+(download here: https://git-scm.com/downloads )
+
+**sbt**
 (download here: http://www.scala-sbt.org/download.html)
+
+
 
 How to run:
 
