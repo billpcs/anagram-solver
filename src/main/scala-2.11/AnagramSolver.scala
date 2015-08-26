@@ -1,29 +1,17 @@
-object AnagramSolver extends App{
-
-  def haveSameLetters(dest:String , norm:String ) : Boolean = {
-    val dlst = dest.toList.sorted
-    val nlst = norm.toList.sorted
-    val l = dlst.length
-    def inner(dlst:List[Char] , nlst:List[Char]  , idx:Int) : Boolean = {
-      if (l == idx ) true
-      else if (dlst(idx) == nlst(idx))inner(dlst , nlst , idx+1)
-      else false
-    }
-    inner(dlst , nlst , 0)
-  }
+object AnagramSolver {
 
   def haveMatch( normal:String , scrambled:String   ) : Boolean = {
-    (normal.length == scrambled.length) &&
-      haveSameLetters(scrambled , normal)
+    (normal.length == scrambled.length) && (normal.toList.sorted == scrambled.toList.sorted)
   }
 
-  def solveIt(path:String , scrambled:String ) : List[String] = {
-    val dict = scala.io.Source.fromFile(path)("UTF-8").getLines().toArray
-    var found = List[String]()
+  def solveIt(scrambled:String , dict: Array[String]) : List[String] = {
+    var found : List[String] = List.empty
     for (normal<-dict)
       if ( haveMatch(normal , scrambled) && !(found contains normal) )
           found = found ::: List(normal)
     if (found.isEmpty) List("Not found")
     else found
   }
+
+
 }

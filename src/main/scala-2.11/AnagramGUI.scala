@@ -1,10 +1,9 @@
 import AnagramSolver._
 import scala.swing._
-import scala.swing.BorderPanel.Position._
-import event._
+import event.ButtonClicked
 import java.awt.Color
-import java.io._
-import scala.language.postfixOps
+import java.io.File
+
 
 object AnagramGUI extends SimpleSwingApplication {
 
@@ -12,21 +11,27 @@ object AnagramGUI extends SimpleSwingApplication {
 
   def top = new MainFrame {
 
-    var lang = "ENdict"
-    val basePath = new File(".").getCanonicalPath
-    var restPath = "/src/main/resources/"
+    val english = "ENdict"
+    val greek = "GRdict"
+    var lang = english
+    val basePath = new File("").getCanonicalPath
+    val restPath = "/src/main/resources/"
+    val dictEN = io.Source.fromFile(basePath + restPath + "ENdict")("UTF-8").getLines().toArray
+    val dictGR = io.Source.fromFile(basePath + restPath + "GRdict")("UTF-8").getLines().toArray
 
     val entryPoint = new TextArea(10,20){
       text = "Enter your word here!"
       font = new Font("Monospace", java.awt.Font.ITALIC , 20)
-      background = Color.white
-      foreground = Color.black
+      background = new Color(32, 0, 32)
+      foreground = new Color(127, 179, 225)
+      caret.color = foreground
     }
 
     val outPoint = new TextArea(10,20){
       font = new Font("Monospace", java.awt.Font.BOLD , 20)
-      background = Color.black
+      background = new Color(0, 77, 101)
       foreground = Color.white
+      caret.color = foreground
       editable = false
     }
 
@@ -44,24 +49,26 @@ object AnagramGUI extends SimpleSwingApplication {
         contents += new MenuItem(Action("Quit") {sys.exit(0)} )
       }
       contents += new Menu("Language"){
-        contents += new MenuItem(Action("English"){lang = "ENdict"})
-        contents += new MenuItem(Action("Greek"){lang = "GRdict"})
+        contents += new MenuItem(Action("English"){ lang = english })
+        contents += new MenuItem(Action("Greek"){ lang = greek })
       }
     }
 
     listenTo(button)
     reactions += {
-      case ButtonClicked(component) if component == button =>
+      case ButtonClicked(`button`) => {
         outPoint.text = ""
-        solveIt(
-            basePath + restPath + lang, entryPoint.text.trim.toUpperCase
-          ) foreach(p=> outPoint.text += p.toLowerCase+"\n")
+        if (lang == greek )
+          solveIt(entryPoint.text.trim.toUpperCase , dictGR).foreach(outPoint.text += _.toLowerCase+"\n")
+        else if (lang == english)
+          solveIt(entryPoint.text.trim.toUpperCase , dictEN).foreach(outPoint.text += _.toLowerCase+"\n")
+      }
     }
 
     contents = new BorderPanel {
       add(new ScrollPane(entryPoint), BorderPanel.Position.West)
       add(new ScrollPane(outPoint) , BorderPanel.Position.East)
-      layout(button) = South
+      layout(button) = BorderPanel.Position.South
     }
   }
 }
