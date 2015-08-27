@@ -1,6 +1,12 @@
 Anagram-Solver
 ==============
 
+
+<p align="center">
+<img src="http://i.imgur.com/OQEQ1as.png">
+</p>
+
+
 A Scala Swing GUI program to solve anagrams in English & Greek.
 
 Requirements : 
