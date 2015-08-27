@@ -13,5 +13,15 @@ object AnagramSolver {
     else found
   }
 
+  def getDicts : ( Array[String] , Array[String] ) = {
+    val dictEN_pre = io.Source.fromURL(getClass.getResource("/ENdict"))("UTF-8")
+    val dictEN = dictEN_pre.mkString.split("\n")
+    val dictGR_pre = io.Source.fromURL(getClass.getResource("/GRdict"))("UTF-8")
+    val dictGR = dictGR_pre.mkString.split("\n")
+    dictEN_pre.close()
+    dictGR_pre.close()
+    (dictEN , dictGR)
+  }
+
 
 }

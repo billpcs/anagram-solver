@@ -1,9 +1,9 @@
-import AnagramSolver._
 import scala.swing._
 import event.ButtonClicked
 import java.awt.Color
 import java.io.File
-
+import AnagramSolver._
+import scala.swing.event._
 
 object AnagramGUI extends SimpleSwingApplication {
 
@@ -11,13 +11,11 @@ object AnagramGUI extends SimpleSwingApplication {
 
   def top = new MainFrame {
 
+    
     val english = "ENdict"
     val greek = "GRdict"
     var lang = english
-    val basePath = new File("").getCanonicalPath
-    val restPath = "/src/main/resources/"
-    val dictEN = io.Source.fromFile(basePath + restPath + "ENdict")("UTF-8").getLines().toArray
-    val dictGR = io.Source.fromFile(basePath + restPath + "GRdict")("UTF-8").getLines().toArray
+    val (dictEN , dictGR) = getDicts
 
     val entryPoint = new TextArea(10,20){
       text = "Enter your word here!"
@@ -58,10 +56,10 @@ object AnagramGUI extends SimpleSwingApplication {
     reactions += {
       case ButtonClicked(`button`) => {
         outPoint.text = ""
-        if (lang == greek )
-          solveIt(entryPoint.text.trim.toUpperCase , dictGR).foreach(outPoint.text += _.toLowerCase+"\n")
-        else if (lang == english)
+        if (lang == english)
           solveIt(entryPoint.text.trim.toUpperCase , dictEN).foreach(outPoint.text += _.toLowerCase+"\n")
+        else if (lang == greek )
+          solveIt(entryPoint.text.trim.toUpperCase , dictGR).foreach(outPoint.text += _.toLowerCase+"\n")
       }
     }
 
