@@ -20,11 +20,13 @@ Requirements :
 
 
 How to run:
+`
+$ git clone https://github.com/billpcs/anagram-solver/ 
+$ cd anagram-solver 
+$ sbt run 
+`
 
-$ git clone https://github.com/billpcs/Anagram-Solver/
-
-$ cd Anagram-Solver
-
-$ sbt run
-
-
+If you want to create an executable jar:
+`
+$ sbt assembly
+`
