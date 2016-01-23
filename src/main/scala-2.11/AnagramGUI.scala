@@ -1,9 +1,9 @@
-import scala.swing._
-import event.ButtonClicked
+import java.awt.event.InputEvent
+import javax.swing.KeyStroke
 import java.awt.Color
-import java.io.File
+
+import scala.swing._
 import AnagramSolver._
-import scala.swing.event._
 
 object AnagramGUI extends SimpleSwingApplication {
 
@@ -23,6 +23,8 @@ object AnagramGUI extends SimpleSwingApplication {
       background = new Color(32, 0, 32)
       foreground = new Color(127, 179, 225)
       caret.color = foreground
+      editable = true
+      focusable = true
     }
 
     val outPoint = new TextArea(10,20){
@@ -31,11 +33,19 @@ object AnagramGUI extends SimpleSwingApplication {
       foreground = Color.white
       caret.color = foreground
       editable = false
+      focusable = false
     }
 
-    val button = new Button{
-      text = "Find them!"
-    }
+    val button = new Button(new Action("Find!") {
+      def apply() {
+        outPoint.text = ""
+        if (lang == english)
+          solveIt(entryPoint.text.trim.toUpperCase , dictEN).foreach(outPoint.text += _.toLowerCase+"\n")
+        else if (lang == greek )
+          solveIt(entryPoint.text.trim.toUpperCase , dictGR).foreach(outPoint.text += _.toLowerCase+"\n")
+      }
+    })
+
 
     val scrollbar = new ScrollPane() {
       visible = true
@@ -44,7 +54,12 @@ object AnagramGUI extends SimpleSwingApplication {
     menuBar = new MenuBar {
       resizable = false
       contents += new Menu("File") {
-        contents += new MenuItem(Action("Quit") {sys.exit(0)} )
+        contents += new MenuItem(new Action("Exit") {
+          accelerator = Some(KeyStroke.getKeyStroke('Q', InputEvent.CTRL_DOWN_MASK))
+          def apply() {
+            sys.exit(0)
+          }
+        })
       }
       contents += new Menu("Language"){
         contents += new MenuItem(Action("English"){ lang = english })
@@ -52,20 +67,9 @@ object AnagramGUI extends SimpleSwingApplication {
       }
     }
 
-    listenTo(button)
-    reactions += {
-      case ButtonClicked(`button`) => {
-        outPoint.text = ""
-        if (lang == english)
-          solveIt(entryPoint.text.trim.toUpperCase , dictEN).foreach(outPoint.text += _.toLowerCase+"\n")
-        else if (lang == greek )
-          solveIt(entryPoint.text.trim.toUpperCase , dictGR).foreach(outPoint.text += _.toLowerCase+"\n")
-      }
-    }
-
     contents = new BorderPanel {
       add(new ScrollPane(entryPoint), BorderPanel.Position.West)
-      add(new ScrollPane(outPoint) , BorderPanel.Position.East)
+      add(new ScrollPane(outPoint), BorderPanel.Position.East)
       layout(button) = BorderPanel.Position.South
     }
   }
