@@ -3,7 +3,7 @@ Anagram-Solver
 
 
 <p align="center">
-<img src="http://i.imgur.com/OQEQ1as.png">
+<img src="http://i.imgur.com/04ednBs.png">
 </p>
 
 
